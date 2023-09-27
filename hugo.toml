@@ -1,0 +1,85 @@
+baseURL = ''
+DefaultContentLanguage = 'fr'
+theme = 'PaperMod'
+
+[languages]
+    [languages.fr]
+        title = 'Portfolio'
+        contentDir = "content/fr"
+        languageCode = 'fr-CA'
+        languageDirection = "ltr"
+        languageName = "Français 🇫🇷"
+        weight = 1
+        [languages.fr.menu]
+            [[languages.fr.menu.main]]
+                identifier = "posts"
+                name = "Publication"
+                url = "/posts/"
+                weight = 5
+            [[languages.fr.menu.main]]
+                identifier = "tags"
+                name = "Mots clés"
+                url = "/tags/"
+                weight = 20
+            [[languages.fr.menu.main]]
+                identifier = "archives"
+                name = "Archives"
+                url = "/archives/"
+                weight = 30
+            [[languages.fr.menu.main]]
+                identifier = "about"
+                name = "À propos"
+                url = "/about/"
+                weight = 40
+    [languages.en]
+        title = 'Portfolio'
+        contentDir = "content/en"
+        languageCode = 'en-US'
+        languageDirection = "ltr"
+        languageName = "English 🇬🇧"
+        weight = 2
+        [languages.en.menu]
+            [[languages.en.menu.main]]
+                identifier = "posts"
+                name = "Posts"
+                url = "/posts/"
+                weight = 5
+            [[languages.en.menu.main]]
+                identifier = "tags"
+                name = "Tags"
+                url = "/tags/"
+                weight = 20
+            [[languages.en.menu.main]]
+                identifier = "archives"
+                name = "Archives"
+                url = "/archives/"
+                weight = 30
+            [[languages.en.menu.main]]
+                identifier = "about"
+                name = "About"
+                url = "/about/"
+                weight = 40
+
+[params]
+    defaultTheme = "dark"
+    disableThemeToggle = true
+    showBreadCrumbs = true
+    ShowToc = true
+    ShowPostNavLinks = true
+    displayFullLangName = true
+    [params.profileMode]
+        enabled = false
+        title = "Francis Tremblay"
+        imageUrl = "img/moi.jpg"
+        imageTitle = " "
+        imageWidth = 240
+        imageHeight = 240
+        [[params.socialIcons]]
+            name = "linkedin"
+            url = "https://www.linkedin.com/in/francis-tremblay9/"
+
+
+[markup]
+      [markup.goldmark]
+            [markup.goldmark.renderer]
+                unsafe = true
