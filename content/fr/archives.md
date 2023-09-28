@@ -1,6 +1,6 @@
 ---
 title: "Archives"
 layout: "archives"
-slug: "archivestest"
+slug: "historique"
 summary: archives
 ---

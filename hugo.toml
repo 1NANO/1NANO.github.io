@@ -24,7 +24,7 @@ theme = 'PaperMod'
             [[languages.fr.menu.main]]
                 identifier = "archives"
                 name = "Archives"
-                url = "/archivestest/"
+                url = "/historique/"
                 weight = 30
             [[languages.fr.menu.main]]
                 identifier = "about"
