@@ -20,7 +20,7 @@ summary: about
 </table>
 <br/>
   
-Courriel: francis.tremblay9@hotmail.com
+E-mail: francis.tremblay9@hotmail.com
 
 LinkedIn: <a href="https://www.linkedin.com/in/francis-tremblay9/">francis-tremblay9</a>
 </div>
