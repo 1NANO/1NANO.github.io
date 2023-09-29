@@ -100,7 +100,7 @@ Il y a des dizaines de NPCs partout dans le jeu, certains sont "interactable" et
 
 ### Sauvegarde
 
-Une classe héritant de "USaveGame" a été créé afin de sauvegarder notre game state. Ainsi, toutes les informations par rapport aux dialogues, la position du joueur, le nombre d'étampes/tokens et l'état des stands de tir sont sauvegardés.
+Une classe héritant de "USaveGame" a été créée afin de sauvegarder notre game state. Ainsi, toutes les informations par rapport aux dialogues, la position du joueur, le nombre d'étampes/tokens et l'état des stands de tir sont sauvegardés.
 
 # Programmation
 

@@ -12,6 +12,60 @@
     display: block;
 }
 
+.hamburger {
+    display: none;
+    cursor: pointer;
+    margin: 18px;
+}
+
+.bar {
+    height: 2px;
+    width: 27px;
+    background: white;
+    margin: 5px 0;
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav__pages--open {
+    transform:translateX(0) !important;
+}
+
+.hamburger--open .bar:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+}
+
+.hamburger--open .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger--open .bar:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+}
+
+@media (max-width: 620px) {
+    .nav__pages {
+        position: fixed;
+        top: 60px;
+        left: 0px;
+        width: 100%;
+        background-color: #36363c;
+        transform:translateX(-100%);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .nav__list {
+        flex-direction: column;
+        text-align: center;
+        row-gap:0px;
+        --gap: 0;
+    }
+
+    .hamburger {
+        display: block !important;
+    }
+}
+
 .logo,
 #menu {
     display: flex;
